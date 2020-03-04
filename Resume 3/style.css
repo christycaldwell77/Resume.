@@ -1,0 +1,112 @@
+h2{
+  color:  grey;
+  font-size: 30px;
+  margin: 0px;
+  text-align:left;
+  font-style: oblique;
+  padding: 10px 10px;
+}
+h3{
+  color: DodgerBlue;
+  font-size: 20px;
+  margin: 0px;
+  text-align:left;
+  font-style: oblique;
+  padding: 10px 10px;
+}
+
+p{
+  color:#999999;
+  font-size: 18px;
+  margin: 0px;
+  text-align: left;
+  font-style: normal;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0px;
+  color: grey;
+  overflow: hidden;
+  padding: 10px 10px;
+}
+
+table, td, th {
+  border: 3px solid darkblue;
+  padding: 10px 10px;
+
+}
+
+p.double {border-style: double;}
+h1 {
+  background-color: darkblue;
+  margin: 0px;
+  text-align: center;
+}
+
+	body {
+	  background-color: lightblue;
+	}
+
+  h1 {
+    color: grey;
+    margin: 0px;
+    background-color: lightblue
+}
+
+  a {
+    color: green;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+
+  ul.a {
+    list-style-type: circle;
+}
+
+  .title{
+    color: #999999;
+}
+
+  .containe{
+    width: 80%;
+    max-width: 600px;
+    margin: 50px; auto;
+}
+
+  button.accordion {
+    width: 20%;
+    color: darkBlue;
+    background-color: #999999;
+    border: none;
+    outline: none;
+    text-align:center;
+    padding: 10px 10px;
+    font-style: oblique;
+    font-family:serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color: 0.2s linear;
+
+}
+
+button.accordion::after{
+  content: '+';
+  font-family:fantasy;
+  font-size: 20px;
+  float: right;
+}
+  button.accordion:hover {
+    background-color: DodgerBlue;
+}
+
+.accordion-content {
+
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+}
